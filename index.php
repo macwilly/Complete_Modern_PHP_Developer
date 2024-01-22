@@ -14,4 +14,6 @@ $myAccount = new Account("John", 20);
 $myAccount?->deposit(50)->deposit(30);
 
 //var_dump(Account::$count);
-Utility::printArr([12,432,543,5634]);
+//Utility::printArr([12,432,543,5634]);
+
+echo $myAccount->getBalance();
